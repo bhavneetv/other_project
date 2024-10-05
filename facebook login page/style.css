@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:helvetica ;
+    border-width: 2px;
+
+}
+
+body{
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.logo-box{
+
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+.logo{
+width: 100%;
+}
+
+.box{
+    border: 0px black solid;
+    width: 26%;
+    display: block;
+    height: 75vh;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px #777777 ;
+}
+
+header{
+    border: 0px black solid;
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 1%;
+}
+
+hr{
+     width: 100%;
+     height: 3%;
+}
+.name-box{
+    /* background-color: red; */
+    width: 100%;
+    height: 7.5%;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.mail-box{
+    /* background-color: rgb(146, 87, 87); */
+    width: 100%;
+    height: 7.5%;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.name{
+    background-color: pink;
+    border-radius: 8px;
+    width: 46%;
+    height: 100%;
+    position: relative;
+}
+
+.name-input{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px black solid;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 4%;
+}
+.mail{
+    width: 96%;
+    height: 99%;
+    border: 1px black solid;
+    border-radius: 7px;
+    outline: none;
+    border: 1px black solid;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 2%;
+}
+
+.bdy{
+      /* background-color: rgb(146, 87, 87); */
+      width: 100%;
+      height: 6%;
+      margin-top: 7px;
+     
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+.bday-list{
+    width: 30%;
+    height: 98%;
+    border: black solid  1px;
+    border-radius: 6px;
+    outline: none;
+    /* background-color: red; */
+   
+}
+.gen-list{
+    width: 30%;
+    height: 98%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.text-gender{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 4%;
+}
+#radio{
+    /* width: 90px; */
+    height: 50%;
+    margin-right: 8px;
+    border: 1px solid black;
+}
+select{
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    padding-left: 3%;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.text{
+    font-size: 13px;
+    color: rgba(82, 82, 82, 0.795);
+    margin-top:10px ;
+    padding-left: 10px;
+}
+#button{
+    margin-top: 25px;
+    width: 35%;
+    height: 4vh;
+    background-color: rgb(42, 175, 42);
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.acc{
+    width: 90%;
+    height: 5vh;
+    font-size: 20px;
+    color: rgb(4, 4, 206);
+    margin-top: 4%;
+}
+a{
+    font-size: 20px;
+    color: rgb(4, 4, 206);
+    text-decoration: none;
+}
+.warn{
+    position: absolute;
+    top: 34%;
+    right: 6%;
+    width: 8%;
+    display: none;
+
+}
+
+.nam{
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 70%;
+    display: none;
+}
+
+.warn-num{
+    position: absolute;
+    top: 34%;
+    right: 5%;
+    width: 4%;
+    display: none;
+}
+#pass-tick{
+    position: absolute;
+    right: 5%;
+}
+@media only screen and  (max-width:678px) {
+
+
+
+    *{
+        font-size: 5px;
+    }
+}
+
+
+
+
+
+
+/* login page */
+
+#sec-body{
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 3%;
+}
+
+.sec-logo{
+
+    /* background-color: red; */
+    height: 14vh;
+    
+    width: 28vw;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: -10px;
+    margin-top: -2%;
+}
+
+.sec-svg{
+    width: 56%;
+    margin-left: -32px;
+}
+.sec-text{
+
+font-size: 1.7rem;
+color: rgb(0, 0, 0);
+font-weight: 200;
+
+
+}
+
+.sec-box{
+    margin-top: 7%;
+    background:rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0px 0px 7px #777777 ;
+    width: 20vw;
+    height: 43vh;
+    display: flex;
+    justify-content:flex-start ;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
+}
+.sec-pass{
+font-size: 15px;
+font-weight: 100;
+color: blue;
+margin-top: 8%;
+margin-bottom: 17%;
+cursor: pointer;
+}
+.sec-input-box{
+display: flex;
+align-items: center;
+position: relative;
+justify-content: c;
+    width: 93%;
+    margin-top: 10px;
+    height: 14%;
+    margin-top: 5%;
+    border: 1px black solid;
+    border-radius: 7px;
+    outline: none;
+    border: 1px rgb(224, 220, 220) solid;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 2%;
+   
+}
+.sec-hr{
+    width: 190%;
+    margin-left: -45%;
+    height: 1px;
+    color: rgb(82, 81, 81);
+    border: none;
+    background-color: grey;
+
+}
+
+.sec-submit{
+    height: 40%;
+    width: 110%;
+    margin-top:11%;
+    border-radius: 8px;
+       background-color: rgb(42, 175, 42);
+    margin-left: -8%;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor:pointer;
+    padding-top: 7%;
+
+}
+.sec-login{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    background-color: #0866FF;
+    border: none;
+    cursor: pointer;
+}
+
+.sec-mail{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+    font-size: 19px;
+border: 1px rgba(218, 211, 211, 0.541) solid;
+outline: none;
+padding-left: 3%;
+    height: 100%;
+
+}
+
+
+.sec-login:hover{
+    background-color: #1877F2;
+}
+.sec-submit:hover{
+    background-color: #36A420;
+}
+
+.sec-mail:focus
+{
+    outline: #1877F2  1px solid;
+}
+
+

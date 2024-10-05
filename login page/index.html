@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script>
+        function showpass() {
+            var a = document.getElementById("pass").value;
+            window.alert("Your Entered Password Is: " + a);
+        }
+
+
+        function user() {
+            var b = document.getElementById("user").value;
+            var c = document.getElementById("pass").value;
+
+            // b == "admin" ?console.log("helli"): window.alert("User Name Not Found !!");
+                                                                               // c == "admin" && b == "admin" ? window.open("second-page.html") : widow.alert("Password Is Wrong !!");
+
+            if (b == "admin" && c == "admin") {
+                window.open("second-page.html")
+
+
+            }
+
+            else if (b == "admin" && c != "admin") {
+                window.alert("Wrong Password!")
+
+
+            } 
+            else if (b != "admin" && c == "admin") 
+            {
+                window.alert("Wrong Username!")
+            }
+
+            else
+            {
+                window.alert("Worng Username & Password!!")
+            }
+
+        }
+            
+        
+
+
+    </script>
+    <div class="box">
+        <h3>Login </h3>
+        <nav class="login">
+            <h2>User Name:</h2>
+            <nav class="login-box">
+                <input type="text" name="" id="user" class="lo">
+                <!-- <input type="submit" value="Check User Name" class="btn" onclick="user()"> -->
+            </nav>
+
+        </nav>
+        <nav class="pass">
+            <h2>Password:</h2>
+            <nav class="login-box">
+                <!-- <input type="checkbox" name="" id="" onclick="showpass()"> -->
+                <input type="password" name="pass" id="pass" class="input" jhjb required>
+
+                <button class="btn" ondblclick="showpass()">Show <br> Password</button>
+            </nav>
+
+        </nav>
+        <input type="submit" value="Login" class="btn-submit" onclick="user()">
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/favv.png">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="logo-box"><img src="image/facebook.svg" alt="" class="logo"></div>
+    <div class="box">
+        <header>
+            <h2 class="create">Create a new account</h2>
+            <p class="its" style="font-size: 13px; font-weight: 400; margin-bottom: 20px;">It's quick and easy.</p>
+            <hr id="hr">
+        </header>
+
+
+
+
+
+
+
+        <div class="name-box">
+
+            <nav class="name"><input type="text" name="first name" id="name-input" class="name-input"
+                    placeholder="First name" onblur="first()">
+                <img src="image/warning-sign.png" alt="" id="warning1" class="warn">
+                <img src="image/name.png" alt="" id="name1" class="nam">
+            </nav>
+
+
+
+
+
+
+
+            <nav class="name"><input type="text" name="last name" id="last-input" class="name-input"
+                    placeholder="Last name" onblur="second()">
+                <img src="image/warning-sign.png" alt="" id="warning2" class="warn">
+                <img src="image/sec.png" alt="" id="name2" style="display: none;">
+            </nav>
+        </div>
+
+
+
+
+
+
+
+        <div class="mail-box">
+
+            <input type="text" name="mail" id="mail" class="mail" placeholder="Mobile number or email" onblur="third()">
+            <img src="image/warning-sign.png" alt="" id="warning3" class="warn-num" ">
+            <img src=" image/mail.png" alt="" id="name3" class="nam" style=" width: 50%;">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="mail-box">
+
+            <input type="password" name="password" id="passwordd" class="mail" placeholder="New password"
+                onblur="matchh()">
+            <p id="pass-tick" style="display: none;"> <i class="fa fa-check" style="font-size:24px; color: green;"></i>
+            </p>
+            <img src="image/passs.png" alt="" class="nam " id="nam4" style="display: none; right: -200px;
+            top: 3px; width: 45%;">
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <input type="checkbox" name="show password" id="show-pass" style="margin: 3% 0% 0 3%; " onclick="shows()"><label
+            for="show-pass" id="label" style="color: grey; margin-left: 1%;">Show password</label>
+        <p style="text-align: left; margin-left: 3%; margin-top: 3%;">Birthday <i class="fa fa-question-circle"
+                style="font-size:16px;color: rgba(46, 46, 46, 0.678); cursor: help;"></i></p>
+        <div class="bdy">
+
+            <nav class="bday-list">
+
+                <select name="month" id="bdya">
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                    <option value="">mar</option>
+                    <option value="">Apr</option>
+                    <option value="">May</option>
+                    <option value="">Jun</option>
+                    <option value="">Jul</option>
+                    <option value="">Aug</option>
+                    <option value="">Set</option>
+                    <option value="">Oct</option>
+                    <option value="">Nov</option>
+                    <option value="">Dec</option>
+                </select>
+
+
+            </nav>
+            <nav class="bday-list">
+
+                <select name="month" id="bdyaa" >
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="24">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                </select>
+
+
+            </nav>
+            <nav class="bday-list">
+
+                <select name="month" id="bdya-year" value="23" onblur="aa()">
+                    <option value="24">2024</option>
+                    <option value="23">2023</option>
+                    <option value="22">2022</option>''
+
+                    <option value="21">2021</option>
+                    <option value="20">2020</option>
+                    <option value="19">2019</option>
+                    <option value="18">2018</option>
+                    <option value="17">2017</option>
+                    <option value="16">2016</option>
+                    <option value="15">2015</option>
+                    <option value="14">2014</option>
+                    <option value="13">2013</option>
+                    <option value="12">2012</option>
+                    <option value="11">2011</option>
+                    <option value="10">2010</option>
+                    <option value="09">2009</option>
+                    <option value="08">2008</option>
+                    <option value="07">2007</option>
+                    <option value="06">2006</option>
+                    <option value="05">2005</option>
+                    <option value="04">2004</option>
+                    <option value="03">2003</option>
+                    <option value="02">2002</option>
+                    <option value="01">2001</option>
+                    <option value="00">2000</option>
+
+
+                </select>
+
+
+            </nav>
+
+        </div>
+
+
+
+
+
+        <p style="text-align: left; margin-left: 3%; margin-top: 3%;">Gender <i class="fa fa-question-circle"
+                style="font-size:16px;color: rgba(46, 46, 46, 0.678); cursor: help;"></i></p>
+                
+        <div class="bdy">
+
+            <nav class="gen-list">
+                <nav class="text-gender">Female</nav>
+                <span class="radio">
+                    <input type="radio" name="" id="radio">
+                </span>
+            </nav>
+            <nav class="gen-list">
+                <nav class="text-gender">Male</nav>
+                <span class="radio">
+                    <input type="radio" name="" id="radio">
+                </span>
+            </nav>
+            <nav class="gen-list">
+                <nav class="text-gender">Custom</nav>
+                <span class="radio">
+                    <input type="radio" name="" id="radio">
+                </span>
+            </nav>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+        </form>
+        <div class="text">
+            People who use our service may have uploaded your contact information to Facebook. Learn more.
+
+            <br>
+            <br>
+            By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS
+            notifications from us and can opt out at any time.
+        </div>
+
+
+
+
+        <center>
+            <input type="submit" value="Login" id="button" onclick="submit()">
+
+            <div class="acc"><a href="login page/login.html">Already have an account?</a></div>
+
+
+        </center>
+
+
+    </div>
+</body>
+
+</html>

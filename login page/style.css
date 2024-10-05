@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: 1920px 1080px;
+
+}
+
+.box {
+    border: 0px black solid;
+
+    height: 77vh;
+    width: 27vw;
+    margin: 5.5% auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    gap: 4%;
+    backdrop-filter: blur(6px);
+    box-shadow: 8px 6px 19px black;
+
+}
+
+h3 {
+    font-family: edo;
+    font-size: 3rem;
+    display: inline;
+    margin-top: -32%;
+
+}
+
+.login {
+    /* background-color: rgba(255, 255, 255, 0.034); */
+    height: 30%;
+    width: 96%;
+}
+
+.pass {
+    /* background-color: rgba(255, 255, 255, 0.048); */
+    height: 30%;
+    margin-top: -15%;
+    width: 96%;
+
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-left: 4%;
+}
+
+.login-box {
+    /* background-color: rgba(0, 0, 0, 0.096); */
+    height: 30%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lo {
+    width: 99%;
+    height: 100%;
+
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-left: 2%;
+    border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur(4px);
+    border: none;
+    color: rgb(199, 197, 197);
+}
+
+.input {
+    height: 100%;
+    width: 76%;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-left: 2%;
+    border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur(4px);
+    border: none;
+    color: rgb(199, 197, 197);
+
+}
+
+.btn {
+    height: 100%;
+    width: 23%;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.151);
+    border: none;
+    backdrop-filter: blur(12px);
+}
+
+.btn-submit {
+    height: 8%;
+    width: 33%;
+    font-weight: bolder;
+    font-size: 21px;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 9%;
+    border: none;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.295);
+    border: none;
+    backdrop-filter: blur(12px);
+    color: wheat;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            margin-top: -250px;
+            font-size: 27px;
+            font-family: sans-serif;
+
+        }
+        .box{
+            gap: 280px;
+        }
+        select{
+            height: 8%;
+            width: 80%;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: sans-serif;
+            background-color: rgba(0, 0, 0, 0.11);
+            backdrop-filter: blur(10px);
+            border-radius: 18px;
+            border: none;
+margin-top: -50px;
+            padding-left: 3%;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function netflix()
+        {
+            var a=document.getElementById("select").value;
+            if(a=="none"){
+                window.open("main.html")
+            } 
+            else if(a=="netflix"){
+                window.open("../../netflix clone/main.html")
+            }
+            else if(a=="computer"){
+                window.open("../../css/verma education/index.html")
+            }
+            else if(a=="media"){
+                window.open("../../html/verma media project/index.html")
+            }
+            else if(a=="sweet"){
+                window.open("../../css/sweet shop/indx.html")
+            }
+            else if(a=="beauty"){
+                window.open("../../css/beauty products/index.html")
+            }
+            else if(a=="text"){
+                window.open("../text editor/index.html")
+            }
+            else if(a=="face"){
+                window.open("../facebook login page/login page/login.html")
+            }
+            
+            else {
+                window.open("../calculator/main.html")
+            }
+        }
+    </script>
+    <div class="box">
+        <h1 >Select Which You Want To Open.</h1>
+
+        <select name="" id="select" >
+            <option value="none">---None---</option>
+            <option value="netflix">Netflix</option>
+            <option value="computer">Verma Computer Education</option>
+            <option value="media">Verma Media </option>
+            <option value="sweet">Sweets Shop</option>
+            <option value="beauty">Beauty Products</option>
+            <option value="text">Text Editor</option>
+            <option value="calculator">Calculator</option>
+            <option value="face">Facebook page</option>
+        </select>
+
+        <input type="submit" value="Submit" class="btn-submit" onclick="netflix()">
+    </div>
+</body>
+</html>
